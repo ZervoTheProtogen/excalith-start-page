@@ -17,7 +17,7 @@ const defaultConfig = {
 		orange: "fab387"
 	},
 	wallpaper: {
-		url: "https://cdn.wallpapersafari.com/98/83/8Mav7F.jpg",
+		url: "https://wallpapercave.com/wp/forev4s.jpg",
 		easing: "ease-in-out",
 		fadeIn: true,
 		blur: true
@@ -78,8 +78,18 @@ const defaultConfig = {
 			},
 			{
 				alias: "b",
-				name: "Brave Search",
-				url: "https://search.brave.com/search?q={}"
+				name: "Biltema Search",
+				url: "https://www.biltema.se/soksida/?query={}"
+			},
+			{
+				alias: "t",
+				name: "Tradera Search",
+				url: "https://www.tradera.com/search?q={}"
+			},
+			{
+				alias: "o",
+				name: "Octopart Search",
+				url: "https://octopart.com/search?q={}"
 			},
 			{
 				alias: "gh",
@@ -93,6 +103,11 @@ const defaultConfig = {
 			},
 			{
 				alias: "r",
+				name: "Reddit Search",
+				url: "https://www.reddit.com/search/?q={}"
+			},
+			{
+				alias: "sr",
 				name: "Subreddit Search",
 				url: "https://reddit.com/r/{}"
 			},
@@ -100,6 +115,11 @@ const defaultConfig = {
 				alias: "w",
 				name: "Wikipedia Search",
 				url: "https://en.wikipedia.org/wiki/{}"
+			},
+			{
+				alias: "yt",
+				name: "YouTube Search",
+				url: "https://www.youtube.com/results?search_query={}"
 			}
 		]
 	},
