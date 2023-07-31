@@ -92,6 +92,11 @@ const defaultConfig = {
 				url: "https://octopart.com/search?q={}"
 			},
 			{
+				alias: "c",
+				name: "Conrad Search",
+				url: "https://www.conrad.se/sv/search.html?search={}"
+			},
+			{
 				alias: "gh",
 				name: "Github Search",
 				url: "https://github.com/search?q={}"
@@ -131,9 +136,9 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Portfolio",
-						url: "https://cancellek.com",
-						icon: "mdi:web"
+						name: "YouTube",
+						url: "https://www.youtube.com",
+						icon: "mdi:youtube"
 					},
 					{
 						name: "Keybase",
@@ -168,9 +173,9 @@ const defaultConfig = {
 						icon: "ph:gitlab-logo-simple-fill"
 					},
 					{
-						name: "Dev.to",
-						url: "https://dev.to",
-						icon: "material-symbols:logo-dev"
+						name: "Cloudflare",
+						url: "https://www.cloudflare.com",
+						icon: "mdi:cloud"
 					},
 					{
 						name: "Stack Overflow",
@@ -200,9 +205,9 @@ const defaultConfig = {
 						icon: "mdi:reddit"
 					},
 					{
-						name: "Polywork",
-						url: "https://polywork.com",
-						icon: "simple-icons:polywork"
+						name: "Element",
+						url: "https://element.io",
+						icon: "mdi:dots-circle"
 					}
 				]
 			},
@@ -212,24 +217,24 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Polygon",
-						url: "https://polygon.com",
-						icon: "uil:polygon"
+						name: "Steam",
+						url: "https://store.steampowered.com",
+						icon: "fa-brands:steam"
 					},
 					{
-						name: "IGN",
-						url: "https://ign.com",
-						icon: "mdi:currency-sign"
+						name: "Kinguin",
+						url: "https://www.kinguin.net",
+						icon: "mdi:penguin"
 					},
 					{
-						name: "RPS",
-						url: "https://rockpapershotgun.com/",
-						icon: "ph:toilet-paper-bold"
+						name: "Inet",
+						url: "https://www.inet.se",
+						icon: "uil:circuit"
 					},
 					{
-						name: "80lv",
-						url: "https://80.lv/",
-						icon: "tabler:hand-rock"
+						name: "Modrinth",
+						url: "https://modrinth.com",
+						icon: "mdi:wrench"
 					}
 				]
 			},
@@ -261,29 +266,29 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Tech",
+				title: "Electronics",
 				color: "yellow",
 				align: "left",
 				links: [
 					{
-						name: "TechCrunch",
-						url: "https://techcrunch.com/",
-						icon: "game-icons:techno-heart"
+						name: "Octopart",
+						url: "https://octopart.com/",
+						icon: "mdi:integrated-circuit-chip"
 					},
 					{
-						name: "Verge",
-						url: "https://www.theverge.com/",
-						icon: "arcticons:verge"
+						name: "DigiKey",
+						url: "https://www.digikey.com",
+						icon: "mdi:chip"
 					},
 					{
-						name: "It's Foss",
-						url: "https://itsfoss.com/",
-						icon: "ri:mastodon-fill"
+						name: "Conrad",
+						url: "https://www.conrad.se",
+						icon: "mdi:alpha-c-circle-outline"
 					},
 					{
-						name: "9To5 Linux",
-						url: "https://9to5linux.com/",
-						icon: "uil:linux"
+						name: "JLCPCB",
+						url: "https://jlcpcb.com",
+						icon: "mdi:factory"
 					}
 				]
 			}
