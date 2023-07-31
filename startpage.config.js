@@ -1,23 +1,23 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "Zervo",
 	theme: {
 		backgroundColor: "#121317",
-		windowColor: "#1e212b",
+		windowColor: "#1e1e2e",
 		glowColor: "#6b5cb157",
-		white: "#e2e2e2",
-		gray: "#97989d",
-		black: "#16161e",
-		red: "#ec6183",
-		green: "#2ed8a2",
-		yellow: "#e8b195",
-		blue: "#2bc3de",
-		cyan: "#62e0e2",
-		magenta: "#e069aa",
-		violet: "#d1aff8",
-		orange: "#ff8800"
+		white: "#cdd6f4",
+		gray: "#7f849c",
+		black: "#11111b",
+		red: "#f38ba8",
+		green: "#a6e3a1",
+		yellow: "#f9e2af",
+		blue: "#89b4fa",
+		cyan: "#89dceb",
+		magenta: "#cba6f7",
+		violet: "#f5c2e7",
+		orange: "fab387"
 	},
 	wallpaper: {
-		url: "",
+		url: "https://cdn.wallpapersafari.com/98/83/8Mav7F.jpg",
 		easing: "ease-in-out",
 		fadeIn: true,
 		blur: true
@@ -62,7 +62,7 @@ const defaultConfig = {
 		hoverColor: "violet"
 	},
 	search: {
-		default: "https://google.com/search?q=",
+		default: "https://duckduckgo.com/?q=",
 		target: "_self",
 		shortcutRegex: "([A-Za-z0-9]+) (.*)",
 		shortcuts: [
